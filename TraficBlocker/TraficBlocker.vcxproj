@@ -147,12 +147,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Tests.cpp" />
     <ClCompile Include="TrafficChecker.cpp" />
     <ClCompile Include="TraficBlocker.cpp" />
     <ClCompile Include="UnitTester.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bitoperations.h" />
+    <ClInclude Include="Tests.h" />
     <ClInclude Include="utils.h" />
     <ClInclude Include="TrafficChecker.h" />
     <ClInclude Include="UnitTester.h" />
